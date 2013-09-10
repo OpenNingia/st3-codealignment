@@ -1,4 +1,4 @@
-Code Alignment plugin for Sublime Text 3
+Code Alignment for Sublime Text 3
 ========================================
 
 Select the text you want to align and hit CTRL+ALT+=
