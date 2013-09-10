@@ -22,7 +22,7 @@ class AlignByCommand(sublime_plugin.WindowCommand):
         w          = self.window
         w.show_quick_panel(
             [
-                [" = ", "align by equal sign blabla"],
+                [" = ", "align by equal sign"],
                 [",", "align by comma"],
                 [":", "align by colon"],
                 [";", "align by semicolon"]
