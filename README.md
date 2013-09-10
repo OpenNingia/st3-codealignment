@@ -13,7 +13,8 @@ Select the text you want to align and hit CTRL+ALT+=
     static const char* DEFAULT_COUNTRY = "Italy";
 
 <p>Looks good? You can also choose the separator to use:</p>
-    ![Screenshot](https://raw.github.com/OpenNingia/st3-codealignment/master/screenshot.png "More than a million words")
+
+![Screenshot](https://raw.github.com/OpenNingia/st3-codealignment/master/screenshot.png "More than a million words")
 
 ## Supported Sublime Text versions
 Indent plugin supports Sublime Text 3
