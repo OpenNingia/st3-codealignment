@@ -1,8 +1,7 @@
 Code Alignment for Sublime Text 3
 ========================================
 
-Select the text you want to align and hit 
-    CTRL+ALT+=
+Select the text you want to align and hit <pre>CTRL+ALT+=</pre>
 
 <p>Code Alignment plugin allow you to convert this code: </p>
     int magic_number=4;
