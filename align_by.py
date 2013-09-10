@@ -19,12 +19,17 @@ import sublime, sublime_plugin
 
 class AlignByCommand(sublime_plugin.WindowCommand):
     def run(self):
-        w = self.window
+        w          = self.window
         w.show_quick_panel(
-            ["= align by equal sign", ", align by comma", ": align by colon", "; align by semicolon"],
+            [
+                [" = ", "align by equal sign blabla"],
+                [",", "align by comma"],
+                [":", "align by colon"],
+                [";", "align by semicolon"]
+            ],
             self.on_done)
 
-        self.seps = ['=', ',', ':', ';']
+        self.seps  = ['=', ',', ':', ';']
         self.sep  = '='
 
     def on_done(self, param):
