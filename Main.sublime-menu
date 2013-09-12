@@ -1,0 +1,33 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Code Alignment",
+                "mnemonic": "A",
+                "id": "st3codealign",
+                "children":
+                [
+                    {
+                        "command": "open_file", "args":
+                        {
+                            "file": "${packages}/st3-codealignment/st3-codealignment.sublime-settings"
+                        },
+                        "caption": "Settings – Default"
+                    },
+                    {
+                        "command": "open_file", "args":
+                        {
+                            "file": "${packages}/User/st3-codealignment.sublime-settings"
+                        },
+                        "caption": "Settings – User"
+                    },
+                    { "caption": "-" }
+                ]
+            }
+        ]
+    }
+]

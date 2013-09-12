@@ -30,3 +30,10 @@ Available on [Github](https://github.com/OpenNingia/st3-codealignment)
 
 ## License
 This software is distributed under GPLv3 license (see LICENSE for details)
+
+## Changelog
+
+v 0.2
+    * Added Settings configuration
+    * Added Block alignment in single selection ( blocks are separated by an empty line )
+    * If separator is prefixed or suffixed by known symbols ( e.g. <= >= != ) then the line is not aligned
